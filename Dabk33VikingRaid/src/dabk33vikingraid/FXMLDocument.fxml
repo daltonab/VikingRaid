@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dabk33vikingraid.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="602.0" fitWidth="831.0" layoutX="-12.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Title.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="play" layoutX="450.0" layoutY="168.0" mnemonicParsing="false" onAction="#handlePlay" prefHeight="25.0" prefWidth="209.0" text="Play" />
+      <Button fx:id="load" layoutX="450.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleLoad" prefHeight="25.0" prefWidth="209.0" text="Load Saved Score" />
+      <Button fx:id="about" layoutX="450.0" layoutY="282.0" mnemonicParsing="false" onAction="#handleAbout" prefHeight="25.0" prefWidth="209.0" text="About" />
+      <Button fx:id="quit" layoutX="450.0" layoutY="344.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleQuit" prefHeight="25.0" prefWidth="209.0" text="Quit" />
+      <Label layoutX="266.0" layoutY="21.0" prefHeight="91.0" prefWidth="434.0" text="  Viking Raid" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Centaur" size="79.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

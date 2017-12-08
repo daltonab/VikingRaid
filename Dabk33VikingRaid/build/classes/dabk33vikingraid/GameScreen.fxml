@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dabk33vikingraid.GameScreenController">
+   <children>
+      <ImageView fitHeight="555.0" fitWidth="920.0" layoutX="-34.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-46.0" AnchorPane.leftAnchor="-34.0" AnchorPane.rightAnchor="-75.53125" AnchorPane.topAnchor="-9.0">
+         <image>
+            <Image url="@Background.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="14.0" text="Lives" textFill="#f5f4f4">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="lives" layoutX="25.0" layoutY="48.0" prefHeight="41.0" prefWidth="28.0" textFill="#fffefe">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="110.0" prefHeight="45.0" prefWidth="75.0" text="Gold" textFill="#fffdfd">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="gold" layoutX="25.0" layoutY="140.0" prefHeight="69.0" prefWidth="50.0" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
